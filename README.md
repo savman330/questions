@@ -1,6 +1,6 @@
 # Interview Questions
 
-### Zune
+### Zune Question
     
     The Zune Clock Driver problem
 
@@ -62,7 +62,7 @@ Given an array of cards that represent a hand in Poker consisting of N count car
 Example:
 
     ```
-    cards = [("spades", 13), ("diamonds", 7), ("clubs", 11), ("hearts", 2), ("spades", 9), ("diamonds", 12), ("clubs", 10)]
+cards = [("spades", 13), ("diamonds", 7), ("clubs", 11), ("hearts", 2), ("spades", 9), ("diamonds", 12), ("clubs", 10)]
 
 def hasFlush(cards):
     # your code goes here, return True or False
