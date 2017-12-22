@@ -38,7 +38,7 @@ module.exports = class isLeapYear {
 
 At first I created a new instance of the isLeapYear class and began logging to the output of the checker() method to the console.  
 But, since I want to get in the habit of creating actual assets as opposed to just a bunch of disparate scripts littered on my local hard drive, 
-I decided that I may as well spin up an instance of Node.js on AWS and go ahead and develop a rudimentary interactive webpage to test the logic in. my code.
+I decided that I may as well spin up an instance of Node.js on AWS and go ahead and develop a rudimentary interactive webpage to test the logic in my code.
 
 While I won't be doing this for every single question/mini-project it was worth the effort to combine everything into a working pseudo app. 
 
