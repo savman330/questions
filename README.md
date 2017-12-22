@@ -1,6 +1,6 @@
 # Interview Questions
 
-1. Zune
+### Zune
     
     The Zune Clock Driver problem
 
@@ -54,4 +54,27 @@ Bonus: Print the hour:minute:second as well.
 
 
 
-2. Poker
+### Poker Question
+
+
+Given an array of cards that represent a hand in Poker consisting of N count cards  Write a pair of functions that will determine if a hand contains a "straight" (5 cards with sequential values) or a "flush" (4 cards with same suit).  The array that is passed in is a list of tuples of the form: [("suit", value),("suit", value)...].  Where "value" is between 2-14 (Jack is 10, Queen is 11, King is 13, Ace is 14). Don't forget that the ACE can be used as a "1" as well for purposes of computing a straight.  
+
+Example:
+
+    ```
+    cards = [("spades", 13), ("diamonds", 7), ("clubs", 11), ("hearts", 2), ("spades", 9), ("diamonds", 12), ("clubs", 10)]
+
+def hasFlush(cards):
+    # your code goes here, return True or False
+
+def hasStraight(cards):
+    # your code goes here, return True or False
+    ```
+
+### Design Question
+
+Design a class or data structure that represents the board for a "Connect 4" game.  Now implement the function where a player drops a checker into one of the columns and detect if that was a winning move.
+
+### Binary Tree Question
+
+Imagine a binary tree where each node contains a unique letter.  Now you are given only the original pre-order and in-order traversal of the tree as a pair of strings (or array of chars).  Construct the original tree.
