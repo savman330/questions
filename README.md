@@ -12,17 +12,17 @@ On December 31, 2008, all the Zunes of a particular model were unable to boot. I
 
 Background: Leap years are normally understood as occurring "every 4 years".  This isn't entirely correct. Normally if the year is divisible by 4 (e.g. 2016), it's a leap year.  But if the year is divisible by 100, it's not a leap year unless it's also divisible by 400.  Hence, the year 2000 was a leap year, but the year 2100 will not be leap year.  Hence, you can't assume leap years are every four year.  If you're confused at this point, don't worry. Because I've already provided you an already written and tested library function that will tell you if a year is a leap year or not.  It has any of the following forms depending on which language you want to use:
 
-    ```
+```
     def isLeapYear(year):      # Python
 
     bool isLeapYear(int year);  // C, C++, Java)
 
     function isLeapYear(year);  // JavaScript
-    ```
+```
 
 Your job is to implement a function that will convert the number of seconds since Jan 1 1980 at midnight and turn that value into a into printable date (month/day/year).  We'll skip the hh:mm:ss part for now.  The declaration for this function you are to implement is given below.
 
-    ```
+```
     def printDate(seconds):      # Python
         # your code goes here
 
@@ -34,7 +34,7 @@ Your job is to implement a function that will convert the number of seconds sinc
     function printDate(seconds) { // Javascript
         // your code goes here
     }
-    ```
+```
 
 Example: If invoke your code as printDate(0), it should print out "1/1/1980".  If I invoke printDate(24*60*60), it should print out "1/2/1980" and so forth. I'm not so concerned with how you print and format out the final strings - as long as you have the correct values for month, day, and year in a variable before the function exits.
 
