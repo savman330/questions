@@ -1,6 +1,7 @@
 'use strict';
 
 const isLeapYear = require('./leap.js');
+const Zune = require('./seconds.js');
 
 /*
 let date = 2100;
@@ -24,7 +25,9 @@ window.onload = () => {
       leapOutput.innerHTML = 'Is the year ' + year.year + ' a leap year?';
       leapPara.innerHTML = year.checker();
       
-    };
+      };
+      
+    var seconds = new Zune(1000);
 };
 
 

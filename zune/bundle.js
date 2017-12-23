@@ -36,12 +36,13 @@ module.exports = class isLeapYear {
     }
 } 
 
-//module.exports.isLeapYear;
+
 
 },{}],2:[function(require,module,exports){
 'use strict';
 
 const isLeapYear = require('./leap.js');
+const Zune = require('./seconds.js');
 
 /*
 let date = 2100;
@@ -65,11 +66,20 @@ window.onload = () => {
       leapOutput.innerHTML = 'Is the year ' + year.year + ' a leap year?';
       leapPara.innerHTML = year.checker();
       
-    };
+      };
+      
+    var seconds = new Zune(1000);
 };
 
 
 
 
 
-},{"./leap.js":1}]},{},[2]);
+},{"./leap.js":1,"./seconds.js":3}],3:[function(require,module,exports){
+module.exports = class Zune {
+    
+    constructor(seconds){
+        this.seconds = seconds;
+    }
+}
+},{}]},{},[2]);
