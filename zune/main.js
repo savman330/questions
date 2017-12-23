@@ -1,7 +1,7 @@
 'use strict';
 
 const isLeapYear = require('./leap.js');
-const Zune = require('./seconds.js');
+//const Zune = require('./seconds.js');
 
 /*
 let date = 2100;
@@ -27,7 +27,7 @@ window.onload = () => {
       
       };
       
-    var seconds = new Zune(1000);
+    //var time = new Zune(1000);
 };
 
 
